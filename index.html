@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>Bikcraft</title>
+  <title>Bikcraft - Bicicletas Elétricas</title>
   <meta name="description" content="Bicicletas elétricas de alta precisão e qualidade, feitas sob medida para você. Explore o mundo na sua velocidade com a Bikcraft.">
 
   <link rel="stylesheet" href="/css/style.css">
@@ -23,7 +23,7 @@
   <header class="header-bg">
     <div class="header container">
       <a href="./">
-        <img src="/img/bikcraft.svg" alt="Bicicleta">
+        <img src="/img/bikcraft.svg" width="136" alt="Bicicleta">
       </a>
 
       <nav aria-label="primaria">
@@ -43,9 +43,10 @@
         <p class="font-2-l cor-5">Bicicletas elétricas de alta precisão e qualidade, feitas sob medida para você. Explore o mundo na sua velocidade com a Bikcraft.</p>
         <a class="botao" href="./bicicletas.html">Escolha a sua</a>
       </div>
-      <div class="introducao-imagem">
-        <img src="/img/fotos/introducao.jpg" alt="Bicicleta eletrica preta">
-      </div>
+      <picture>
+        <source media="(max-width:800px)" srcset="./img/bicicletas/nimbus.jpg">
+        <img src="/img/fotos/introducao.jpg" width="1280" heigh="1600" alt="Bicicleta eletrica preta">
+      </picture>
     </div>
   </main>
 
@@ -87,19 +88,19 @@
         <a class="link" href="./bicicletas.html">Escolha um modelo</a>
         <div class="tecnologia-vantagens">
           <div>
-            <img src="./img/icones/eletrica.svg" alt="">
+            <img src="./img/icones/eletrica.svg" width="24" heigh="24" alt="">
             <h3 class="font-1-m cor-0">Motor Elétrico</h3>
             <p class="font-2-s cor-5">Toda Bikcraft é equipada com um motor elétrico que possui duração de até 120h. A bateria é recarregada com a sua energia gasta ao pedalar.</p>
           </div>
           <div>
-            <img src="./img/icones/rastreador.svg" alt="">
+            <img src="./img/icones/rastreador.svg" width="24" heigh="24" alt="">
             <h3 class="font-1-m cor-0">Rastreador</h3>
             <p class="font-2-s cor-5">Sabemos o quão preciosa é a sua Bikcraft, por isso adicionamos rastreadores e sistemas anti-furto para garantir o seu sossego.</p>
           </div>
         </div>
       </div>
       <div class="tecnologia-imagem">
-        <img src="./img/fotos/tecnologia.jpg" alt="">
+        <img src="./img/fotos/tecnologia.jpg" width="1200" heigh="1920" alt="">
       </div>
     </div>
   </article>
@@ -196,6 +197,7 @@
       <p class="footer-copy font-2-m cor-6">Bikcraft © Alguns direitos reservados.</p>
     </div>
   </footer>
+  <script src="./js/script.js"></script>
 </body>
 
 </html>

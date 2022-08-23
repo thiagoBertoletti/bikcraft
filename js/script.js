@@ -10,3 +10,5 @@ function ativarLink(link) {
 }
 
 links.forEach(ativarLink);
+
+// Ativar itens do orçamento //
